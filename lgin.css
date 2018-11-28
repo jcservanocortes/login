@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(gadget_tablet_smartphone_icons_touch_screen_99974_1280x720.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.loginBox{
+    width: 320px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    color:#fff;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box; 
+    padding: 70px 30px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 20px;
+}
+.dead{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    position: fixed;
+    top:-40px;
+    right: 114px;
+    border-color: white;
+
+}
+h2{
+    margin; 0
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.loginBox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.loginBox input{
+    width: 100%;
+    margin-bottom: 20px;  
+}
+.loginBox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:#fff;
+    font-size: 16px;
+}
+.loginBox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background:darkgray;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginBox input[type="submit"]:hover{
+    cursor: pointer;
+    background-color:white;
+}
+.loginBox a
+{
+    display: block;
+    color: white;
+    border: 2px solid grey;
+    padding:15px;
+    margin:15px;
+    text-decoration: none;
+    font-size:20px;
+    text-align:center;
+    font-family: 'Open Sans';
+    margin-bottom: 2px;
+}
+.loginBox a:hover {
+    background-color: #555;
+}
+
+

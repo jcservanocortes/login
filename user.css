@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    background: url(karen.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.sidebar_menu{
+    position: fixed;
+    display: block;
+    width: 350px;
+    margin-left: 0px;
+    overflow: hidden;
+    height: 100vh;
+    max-height: 100vh;
+    background-color:rgba(17,17,17,0.9);
+    color: white;
+    opacity: 0.9;
+    border: solid 1px white;
+}
+.box{
+    font-family: 'Open Sans';
+    font-weight: 200;
+    padding:10px;
+    display: inline-block;
+    border: solid 4px white;
+    box-sizing: border-box;
+    font-size: 22px;
+    color:white;
+    text-align: center;
+    margin-top:20px;
+}
+li a {
+    display: block;
+    color: white;
+    border: 2px solid grey;
+    padding:15px;
+    margin:32px;
+    text-decoration: none;
+    font-size:20px;
+    text-align:center;
+    font-family: 'Open Sans';
+    margin-bottom: 2px;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+}
+ .tao1{
+    height:200px;
+    margin-top: 20px;
+}
+.box1{
+   float:right;
+   top: 10px;
+   margin: 10px;
+   padding: 10px;
+   width: 955px;
+   height: 50px;'
+   position: absolute;
+   border: 3px solid white;
+   box-shadow: 0 15px 40px rgba(0,0,0,.5);
+   right: calc(50%-50px);
+    background-color:rgba(17,17,17,0.9);
+    color: white;
+    opacity: 0.9;
+}
+.box1 p{
+    font-family: monospace;
+    font-weight: 200;
+    font-size: 28px;
+    text-align: center;
+    color:white;
+    top:10px;
+}
+.box2{
+   float:right;
+   top: 10px;
+   margin: 10px;
+   width: 975px;
+   height:590px;
+   position: relative;
+   border: 3px solid white;
+   box-shadow: 0 15px 40px rgba(0,0,0,.5);
+   right: calc(50%-50px);
+   background: transparent;
+}
+sect{
+    width:909px;
+    height: 457px;
+    float:left;
+    border:2px solid grey; 
+    margin:10px;
+    padding:10px;
+    position: relative;
+    background-color:rgba(17,17,17,0.9);
+    color: white;
+    opacity: 0.9;
+    border: solid 1px white;
+}
+.boxx{
+   float:right;
+   top: 10px;
+   margin: 10px;
+   padding: 10px;
+   width: 929px;
+   height: 50px;'
+   position: absolute;
+   border: 3px solid white;
+   box-shadow: 0 15px 40px rgba(0,0,0,.5);
+   right: calc(50%-50px);
+    background-color:rgba(17,17,17,0.9);
+    color: white;
+    opacity: 0.9;
+}
+.boxx p{
+    font-family: monospace;
+    font-weight: 200;
+    font-size: 28px;
+    text-align: center;
+    color:white;
+    top:70px;
+}
+.boc{
+    float:right;
+   top: 10px;
+   margin: 10px;
+   padding: 10px;
+   width: 929px;
+   height: 445px;'
+   position: absolute;
+   border: 3px solid white;
+   box-shadow: 0 15px 40px rgba(0,0,0,.5);
+   right: calc(50%-50px);
+    background-color:rgba(17,17,17,0.9);
+    color: white;
+    opacity: 0.9;
+    border-radius: 12px;
+}
+.pic{
+    width:246px;
+    height: 246px;
+    float:left;
+    border:2px solid grey; 
+    margin:10px;
+    padding:10px;
+    position: relative;
+    background-color:rgba(17,17,17,0.9);
+    color: white;
+    opacity: 0.9;
+    border: solid 1px white;
+    margin-left: +40;
+    text-align: center;
+    margin-top: 116px;
+    border-radius: 12px;
+}
+.mu{
+    width:246px;
+    height: 246px;
+    float:right;
+    border:2px solid grey; 
+    margin:10px;
+    padding:10px;
+    position: relative;
+    background-color:rgba(17,17,17,0.9);
+    color: white;
+    opacity: 0.9;
+    border: solid 1px white;
+    text-align: center;
+    margin-top: 80px;
+    border-radius: 12px;
+}
+.doc{
+    width:246px;
+    height: 246px;
+    float:left;
+    border:2px solid grey; 
+    margin:10px;
+    padding:10px;
+    position: relative;
+    background-color:rgba(17,17,17,0.9);
+    color: white;
+    opacity: 0.9;
+    border: solid 1px white;
+    text-align: center;
+    margin-top: 116px;
+    border-radius: 12px;
+}
+.search{
+        float:right;
+        padding: 7px;
+        margin-right: +4;
+}
+.fol{
+    height:220px;
+    margin-top:5px;
+    cursor: pointer;
+}
